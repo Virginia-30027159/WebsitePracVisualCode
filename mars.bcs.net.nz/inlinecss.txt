@@ -1,0 +1,12 @@
+<style>
+        .content {
+            background-size: 100% 100%;
+            background-image: url("images/Landscape.png");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .subcontent {
+            background: rgba(220, 220, 220, 0.20);
+        }
+    </style>
