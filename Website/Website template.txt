@@ -1,0 +1,61 @@
+<!DOCTYPE HTML> <!-- always use a t start of Website project>
+
+<html>
+
+<Head>
+
+<title> you page name goes here</title>
+
+<!--   Comments go here 
+and on this line still between the comment tags
+-->
+
+<!-- if you are using external style sheet -->
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
+<!-- for inline usage -->
+<style>  
+body {
+ background-image: url("antenna.jpg");    
+ background-color: #cccccc;
+}
+
+For a full screen image that covers the entire surface
+body, html {
+  height: 100%;
+}
+.bg { 
+    background-image: url("bigimage.jpg");
+   height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+</head>
+
+<body>
+
+<body style="background-color:#FF0000;">  set a background color with HEX code
+<body style="background-color:rgb(255,0,0);">  set a background color with RGB
+<body style="background-color:red;">   set a background color with words
+
+align
+
+margin
+
+<a href="#top">Go to top of page</a>   needs <H2 id="top">this is top of page</h2>
+<a href="page2.thml">Page-2</a>
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+header
+div
+Image height and width
+<img src="smiley.gif" alt="Smiley face" height="42" width="42">
+
+footer
+
+</body>
+</html>
